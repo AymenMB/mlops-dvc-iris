@@ -71,7 +71,7 @@ dvc push
 ### 1. DVC Status (Local)
 Vérification du statut local après `dvc add` :
 
-![DVC Status Local](images/dvc status.png)
+![DVC Status Local](images/dvc-status.png)
 
 **Commande :**
 ```bash
@@ -83,7 +83,7 @@ dvc status
 ### 2. DVC Status Cloud (Après Push)
 Vérification de la synchronisation avec MinIO après `dvc push` :
 
-![DVC Status Cloud](images/dvc status --cloud.png)
+![DVC Status Cloud](images/dvc-status--cloud.png)
 
 **Commande :**
 ```bash
