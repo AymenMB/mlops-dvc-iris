@@ -71,7 +71,7 @@ dvc push
 ### 1. DVC Status (Local)
 Vérification du statut local après `dvc add` :
 
-![DVC Status Local](images/dvc-status-local.png)
+![DVC Status Local](images/dvc status.png)
 
 **Commande :**
 ```bash
@@ -83,7 +83,7 @@ dvc status
 ### 2. DVC Status Cloud (Après Push)
 Vérification de la synchronisation avec MinIO après `dvc push` :
 
-![DVC Status Cloud](images/dvc-status-cloud.png)
+![DVC Status Cloud](images/dvc status --cloud.png)
 
 **Commande :**
 ```bash
@@ -97,7 +97,7 @@ dvc status --cloud
 ### 3. MinIO Console - Bucket
 Vérification du bucket et des fichiers dans MinIO :
 
-![MinIO Bucket](images/minio-bucket.png)
+![MinIO Bucket](images/mlops-dvc.png)
 
 Console MinIO accessible sur : http://localhost:9001
 
